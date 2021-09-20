@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="1%p"
+    android:keyWidth="7.8%p"
+    android:keyHeight="@dimen/_35sdp"
+    android:verticalGap="0.8%p">
+
+    <Row android:horizontalGap="1%p">
+        <Key
+            android:codes="4677"
+            android:keyEdgeFlags="left"
+            android:keyLabel="ቅ" />
+        <Key
+            android:codes="4813"
+            android:keyLabel="ው" />
+        <Key
+            android:codes="4773"
+            android:keyLabel="እ" />
+        <Key
+            android:codes="4653"
+            android:keyLabel="ር" />
+        <Key
+            android:codes="4725"
+            android:keyLabel="ት" />
+        <Key
+            android:codes="4845"
+            android:keyLabel="ይ" />
+        <Key
+            android:codes="4769"
+            android:keyLabel="ኡ" />
+        <Key
+            android:codes="4770"
+            android:keyLabel="ኢ" />
+        <Key
+            android:codes="4774"
+            android:keyLabel="ኦ" />
+        <Key
+            android:codes="4949"
+            android:keyLabel="ፕ" />
+        <Key
+            android:codes="4768"
+            android:keyEdgeFlags="right"
+            android:keyLabel="አ" />
+    </Row>
+    <Row android:horizontalGap="1.4%p">
+        <Key
+            android:codes="4661"
+            android:keyEdgeFlags="left"
+            android:horizontalGap="3%p"
+            android:keyLabel="ስ" />
+        <Key
+            android:codes="4853"
+            android:keyLabel="ድ" />
+        <Key
+            android:codes="4941"
+            android:keyLabel="ፍ" />
+        <Key
+            android:codes="4877"
+            android:keyLabel="ግ" />
+        <Key
+            android:codes="4613"
+            android:keyLabel="ህ" />
+        <Key
+            android:codes="4869"
+            android:keyLabel="ጅ" />
+        <Key
+            android:codes="4781"
+            android:keyLabel="ክ" />
+        <Key
+            android:codes="4621"
+            android:keyLabel="ል" />
+        <Key
+            android:codes="4669"
+            android:keyLabel="ሽ" />
+        <Key
+            android:codes="4968"
+            android:keyEdgeFlags="right"
+            android:keyLabel="፨" />
+    </Row>
+    <Row android:horizontalGap="1.2%p"
+        android:keyWidth="8.2%p">
+        <Key
+            android:codes="4964"
+            android:isRepeatable="true"
+            android:keyWidth="14%p"
+            android:keyLabel="፤" />
+        <Key
+            android:codes="4829"
+            android:keyLabel="ዝ" />
+        <Key
+            android:codes="4933"
+            android:keyLabel="ፅ" />
+        <Key
+            android:codes="4733"
+            android:keyLabel="ች" />
+        <Key
+            android:codes="4717"
+            android:keyLabel="ቭ" />
+        <Key
+            android:codes="4709"
+            android:keyLabel="ብ" />
+        <Key
+            android:codes="4757"
+            android:keyLabel="ን" />
+        <Key
+            android:codes="4637"
+            android:keyLabel="ም" />
+
+        <Key
+            android:codes="-5"
+            android:isRepeatable="true"
+            android:keyWidth="14%p"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/ic_delete_icon" />
+    </Row>
+    <Row android:horizontalGap="1%p"
+        android:rowEdgeFlags="bottom">
+        <Key
+            android:codes="-20"
+            android:horizontalGap="0.5%p"
+            android:keyWidth="14%p"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@drawable/ic_123" />
+
+        <Key
+            android:codes="-12"
+            android:keyWidth="10%p"
+            android:keyIcon="@drawable/ic_happy" />
+
+        <Key
+            android:codes="44"
+            android:keyWidth="10%p"
+            android:keyLabel="," />
+        <Key
+            android:codes="32"
+            android:isRepeatable="true"
+            android:keyWidth="33%p"
+            android:keyLabel="SPACE" />
+        <Key
+            android:codes="46"
+            android:isRepeatable="true"
+            android:keyWidth="10%p"
+            android:keyLabel="." />
+        <Key
+            android:codes="-4"
+            android:keyWidth="14%p"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/ic_enter" />
+    </Row>
+</Keyboard>
+
+
+
+

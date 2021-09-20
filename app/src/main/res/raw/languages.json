@@ -1,0 +1,336 @@
+[
+  {
+    "code": "af-ZA",
+    "name": "Afrikaans",
+    "nativeName": "Afrikaans"
+  },
+  {
+    "code": "am-ET",
+    "name": "Amharic",
+    "nativeName": "አማርኛ"
+  },
+  {
+    "code": "ar-SA",
+    "name": "Arabic",
+    "nativeName": " العربية  "
+  },
+  {
+    "code": "hy-AM",
+    "name": "Armenian",
+    "nativeName": "Հայ"
+  },
+  {
+    "code": "az-AZ",
+    "name": "Azərbaycan",
+    "nativeName": "Azərbaycan"
+  },
+  {
+    "code": "eu-ES",
+    "name": "Basque",
+    "nativeName": " Euskara"
+  },
+
+  {
+    "code": "bg-BG",
+    "name": "Bulgarian",
+    "nativeName": " Български  "
+  },
+  {
+    "code": "ca-ES",
+    "name": "Catalan",
+    "nativeName": "Català"
+  },
+  {
+    "code": "hr-HR",
+    "name": "Croatian",
+    "nativeName": " Hrvatski "
+  },
+  {
+    "code": "cs-CZ",
+    "name": "Czech",
+    "nativeName": " Čeština"
+  },
+  {
+    "code": "yue-Hant-HK",
+    "name": "Cantonese",
+    "nativeName": "廣東話"
+  },
+  {
+    "code": "zh",
+    "name": "Chinese",
+    "nativeName": "普通"
+  },
+  {
+    "code": "da-DK",
+    "name": "Danish",
+    "nativeName": "Dansk"
+  },
+  {
+    "code": "nl-NL",
+    "name": "Dutch",
+    "nativeName": "Nederlands"
+  },
+  {
+    "code": "en-GB",
+    "name": "English",
+    "nativeName": "English"
+  },
+  {
+    "code": "fil-PH",
+    "name": "Filipino",
+    "nativeName": "Filipino"
+  },
+  {
+    "code": "fr-FR",
+    "name": "French",
+    "nativeName": "Français"
+  },
+  {
+    "code": "fi-FI",
+    "name": "Finnish",
+    "nativeName": "Suomi"
+  },
+  {
+    "code": "gl-ES",
+    "name": "Galician",
+    "nativeName": "Galego"
+  },
+  {
+    "code": "ka-GE",
+    "name": "Georgian",
+    "nativeName": "ქართული"
+  },
+  {
+    "code": "gu-IN",
+    "name": "Gujarati",
+    "nativeName": "ગુજરાતી"
+  },
+  {
+    "code": "de-DE",
+    "name": "German",
+    "nativeName": "Deutsch"
+  },
+  {
+    "code": "el-GR",
+    "name": "Greek",
+    "nativeName": " Ελληνικά "
+  },
+  {
+    "code": "he-IL",
+    "name": "Hebrew",
+    "nativeName": " עברית  "
+  },
+  {
+    "code": "hi-IN",
+    "name": "Hindi",
+    "nativeName": " हिन्दी  "
+  },
+  {
+    "code": "hu-HU",
+    "name": "Hungarian",
+    "nativeName": " Magyar "
+  },
+  {
+    "code": "id-ID",
+    "name": "Indonesian",
+    "nativeName": "Bahasa Indonesia"
+  },
+  {
+    "code": "is-IS",
+    "name": "Icelandic",
+    "nativeName": " Íslenska "
+  },
+  {
+    "code": "it-IT",
+    "name": "Italian",
+    "nativeName": " Italiano  "
+  },
+  {
+    "code": "jv-ID",
+    "name": "Javanese",
+    "nativeName": " Jawa  "
+  },
+  {
+    "code": "ja-JP",
+    "name": "Japanese",
+    "nativeName": "日本語"
+  },
+  {
+    "code": "kn-IN",
+    "name": "Kannada",
+    "nativeName": " ಕನ್ನಡ  "
+  },
+  {
+    "code": "km-KH",
+    "name": "Khmer",
+    "nativeName": " ភាសាខ្មែរ  "
+  },
+  {
+    "code": "ko-KR",
+    "name": "Korean",
+    "nativeName": "한국어  "
+  },
+  {
+    "code": "lv-LV",
+    "name": "Latvian",
+    "nativeName": " Latviešu "
+  },
+  {
+    "code": "lo-LA",
+    "name": "Lao",
+    "nativeName": " ລາວ  "
+  },
+  {
+    "code": "lt-LT",
+    "name": "Lithuanian",
+    "nativeName": " Lietuvių "
+  },
+  {
+    "code": "ms-MY",
+    "name": "Malay",
+    "nativeName": "Bahasa Melayu"
+  },
+  {
+    "code": "ml-IN",
+    "name": "Malayalam",
+    "nativeName": " മലയാളം "
+  },
+  {
+    "code": "mr-IN",
+    "name": "Marathi",
+    "nativeName": " मराठी  "
+  },
+  {
+    "code": "ne-NP",
+    "name": "Nepali",
+    "nativeName": " नेपाली  "
+  },
+  {
+    "code": "nb-NO",
+    "name": "Norwegian",
+    "nativeName": " Norsk bokmål "
+  },
+  {
+    "code": "fa-IR",
+    "name": "Persian",
+    "nativeName": " فارسی  "
+  },
+  {
+    "code": "pl-PL",
+    "name": "Polish",
+    "nativeName": " Polski "
+  },
+  {
+    "code": "pt-PT",
+    "name": "Portuguese",
+    "nativeName": " Português  "
+  },
+  {
+    "code": "ro-RO",
+    "name": "Romanian",
+    "nativeName": " Română "
+  },
+  {
+    "code": "ru-RU",
+    "name": "Russian",
+    "nativeName": " Русский   "
+  },
+  {
+    "code": "si-LK",
+    "name": "Sinhala",
+    "nativeName": " සිංහල  "
+  },
+  {
+    "code": "sk-SK",
+    "name": "Slovak",
+    "nativeName": " Slovenčina  "
+  },
+  {
+    "code": "sl-SI",
+    "name": "Slovenian",
+    "nativeName": " Slovenščina  "
+  },
+  {
+    "code": "es-ES",
+    "name": "Spanish",
+    "nativeName": " Español  "
+  },
+  {
+    "code": "su-ID",
+    "name": "Sundanese",
+    "nativeName": " Urang  "
+  },
+  {
+    "code": "sw-TZ",
+    "name": "Swahili",
+    "nativeName": " Swahili "
+  },
+  {
+    "code": "sv-SE",
+    "name": "Swedish",
+    "nativeName": " Svenska "
+  },
+  {
+    "code": "sr-RS",
+    "name": "Serbian",
+    "nativeName": " Српски  "
+  },
+  {
+    "code": "ta-IN",
+    "name": "Tamil",
+    "nativeName": " தமிழ்  "
+  },
+  {
+    "code": "te-IN",
+    "name": "Telugu",
+    "nativeName": " తెలుగు "
+  },
+  {
+    "code": "th-TH",
+    "name": "Thai",
+    "nativeName": " ไทย"
+  },
+  {
+    "code": "tr-TR",
+    "name": "Turkish",
+    "nativeName": " Türkçe  "
+  },
+  {
+    "code": "uk-UA",
+    "name": "Ukrainian",
+    "nativeName": " Українська "
+  },
+  {
+    "code": "ur-PK",
+    "name": "Urdu",
+    "nativeName": " اردو "
+  },
+  {
+    "code": "vi-VN",
+    "name": "Vietnamese",
+    "nativeName": " Tiếng Việt "
+  },
+  {
+    "code": "zu-ZA",
+    "name": "Zulu",
+    "nativeName": " IsiZulu  "
+  },
+  {
+    "code": "ps-PK",
+    "name": "Pashto",
+    "nativeName": " پښتو"
+  },
+  {
+    "code": "sd-PK",
+    "name": "Sindhi",
+    "nativeName": " سنڌي "
+  },
+  {
+    "code": "pa-IN",
+    "name": "Punjabi",
+    "nativeName": " ਪੰਜਾਬੀ "
+  }
+
+]
+
+

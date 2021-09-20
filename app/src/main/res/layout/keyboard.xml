@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:id="@+id/mainFrame"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:visibility="visible">
+
+        <FrameLayout
+            android:id="@+id/adContainerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom" />
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/parentLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mainFrame">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/itemsLayoutKeyboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/itemsLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="7"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/textTranslateActivity"
+                        android:layout_width="@dimen/_22sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/ripple_effect"
+                        android:src="@drawable/ic_text_translate_keyboard"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/conversation"
+                        android:layout_width="@dimen/_22sdp"
+                        android:layout_height="@dimen/_22sdp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/ripple_effect"
+                        android:src="@drawable/ic_speak_translate_keyboard" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/dictionary"
+                        android:layout_width="@dimen/_22sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/ripple_effect"
+                        android:src="@drawable/ic_dictionary_keyboard"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/mic"
+                        android:layout_width="@dimen/_35sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="@dimen/_3sdp"
+                        android:background="@drawable/ripple_effect"
+                        android:src="@drawable/ic_black_mic" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/textTranslate"
+                        android:layout_width="@dimen/_22sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/ripple_effect"
+                        android:src="@drawable/ic_keyboard_translate" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/theme"
+                        android:layout_width="@dimen/_22sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/ripple_effect"
+                        android:src="@drawable/ic_black_theme" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/settingsCard"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/ripple_effect"
+                        android:src="@drawable/ic_black_keyboard_change_button" />
+
+                    <ImageView
+                        android:id="@+id/settingsFilled"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/ripple_effect"
+                        android:src="@drawable/ic_black_keyboard_change_button"
+                        android:visibility="gone" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/translatorLayout"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_60sdp"
+                android:background="@color/keybg"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <Spinner
+                    android:id="@+id/leftSpinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#5B5B5B"
+                    android:padding="10dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/swapBtn"
+                    app:layout_constraintEnd_toStartOf="@+id/swapBtn"
+                    app:layout_constraintHorizontal_bias="0.2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/swapBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ripple_effect"
+                    android:padding="5dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.100000024"
+                    app:srcCompat="@drawable/ic_switch_icon_keyboard" />
+
+                <Spinner
+                    android:id="@+id/rightSpinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#5B5B5B"
+                    android:padding="10dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/swapBtn"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.8"
+                    app:layout_constraintStart_toEndOf="@+id/swapBtn"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/backBtn"
+                    android:layout_width="33dp"
+                    android:layout_height="28dp"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/ripple_effect"
+                    android:visibility="visible"
+                    app:layout_constraintBottom_toBottomOf="@+id/etText"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/etText"
+                    app:srcCompat="@drawable/ic_black_back_icon" />
+
+                <EditText
+                    android:id="@+id/etText"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="@dimen/_4sdp"
+                    android:background="@drawable/edit_text_shape"
+                    android:focusable="false"
+                    android:focusedByDefault="true"
+                    android:hint="@string/enter_text_to_translate"
+                    android:padding="5dp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:scrollbars="horizontal"
+                    android:singleLine="true"
+                    android:textSize="17sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/okBtn"
+                    app:layout_constraintStart_toEndOf="@+id/backBtn"
+                    app:layout_constraintTop_toBottomOf="@+id/rightSpinner"
+                    app:layout_constraintVertical_bias="1.0" />
+
+                <ImageView
+                    android:id="@+id/okBtn"
+                    android:layout_width="40dp"
+                    android:layout_height="34dp"
+                    android:background="@drawable/ripple_effect"
+                    app:layout_constraintBottom_toBottomOf="@+id/etText"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.95"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/etText"
+                    app:srcCompat="@drawable/ic_translation_new_btn" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <android.inputmethodservice.KeyboardView
+            android:id="@+id/keyboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemsLayoutKeyboard"
+            android:layout_centerHorizontal="true"
+            android:background="@color/keybg"
+            android:focusable="true"
+            android:keyBackground="@drawable/custom_selector"
+            android:keyPreviewHeight="@dimen/_40sdp"
+            android:keyPreviewLayout="@layout/text_preview"
+            android:keyTextColor="@color/black"
+            android:keyTextSize="15sp"
+            android:longClickable="false"
+            android:padding="@dimen/_6sdp"
+            android:shadowColor="@android:color/transparent" />
+
+        <android.inputmethodservice.KeyboardView
+            android:id="@+id/keyboardOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemsLayoutKeyboard"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/keyboard_bg_updated"
+            android:focusable="true"
+            android:keyBackground="@drawable/selector_for_blue_keyboard"
+            android:keyPreviewHeight="@dimen/_40sdp"
+            android:keyPreviewLayout="@layout/text_preview_for_blue_key"
+            android:keyTextColor="#FFFFFF"
+            android:keyTextSize="15sp"
+            android:longClickable="false"
+            android:padding="@dimen/_6sdp"
+            android:shadowColor="@android:color/transparent"
+            android:visibility="gone" />
+
+        <android.inputmethodservice.KeyboardView
+            android:id="@+id/keyboardTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemsLayoutKeyboard"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/ic_background_black"
+            android:focusable="true"
+            android:keyBackground="@drawable/selector_for_black_keys"
+            android:keyPreviewHeight="@dimen/_40sdp"
+            android:keyPreviewLayout="@layout/text_preview_for_black_key"
+            android:keyTextColor="#FFFFFF"
+            android:keyTextSize="15sp"
+            android:longClickable="false"
+            android:padding="@dimen/_6sdp"
+            android:shadowColor="@android:color/transparent"
+            android:visibility="gone" />
+
+        <android.inputmethodservice.KeyboardView
+            android:id="@+id/keyboardThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemsLayoutKeyboard"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/keyboard_three_background"
+            android:focusable="true"
+            android:keyBackground="@drawable/selector_for_blue_keyboard"
+            android:keyPreviewHeight="@dimen/_40sdp"
+            android:keyPreviewLayout="@layout/text_preview_for_blue_key"
+            android:keyTextColor="#FFFFFF"
+            android:keyTextSize="15sp"
+            android:longClickable="false"
+            android:padding="@dimen/_6sdp"
+            android:shadowColor="@android:color/transparent"
+            android:visibility="gone" />
+
+        <android.inputmethodservice.KeyboardView
+            android:id="@+id/keyboardFour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemsLayoutKeyboard"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/keyboard_four_background"
+            android:focusable="true"
+            android:keyBackground="@drawable/selector_for_blue_keyboard"
+            android:keyPreviewHeight="@dimen/_40sdp"
+            android:keyPreviewLayout="@layout/text_preview_for_blue_key"
+            android:keyTextColor="#FFFFFF"
+            android:keyTextSize="15sp"
+            android:longClickable="false"
+            android:padding="@dimen/_6sdp"
+            android:shadowColor="@android:color/transparent"
+            android:visibility="gone" />
+
+        <android.inputmethodservice.KeyboardView
+            android:id="@+id/keyboardFive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemsLayoutKeyboard"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/keyboard_five_background"
+            android:focusable="true"
+            android:keyBackground="@drawable/selector_for_blue_keyboard"
+            android:keyPreviewHeight="@dimen/_40sdp"
+            android:keyPreviewLayout="@layout/text_preview_for_blue_key"
+            android:keyTextColor="#FFFFFF"
+            android:keyTextSize="15sp"
+            android:longClickable="false"
+            android:padding="@dimen/_6sdp"
+            android:shadowColor="@android:color/transparent"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/bottomLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_202sdp"
+            android:layout_below="@id/itemsLayoutKeyboard"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:background="#fff"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:background="@color/lightgrey">
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_gravity="start" />
+            </LinearLayout>
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animation"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_150sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:lottie_fileName="mic_animation.json"
+                app:lottie_loop="true" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
+

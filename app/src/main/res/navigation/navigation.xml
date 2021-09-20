@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.amherickeyboard.voicetyping.translator.Fragments.HomeFragment"
+        android:label="Amharic Keyboard"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_conversationFragment"
+            app:destination="@id/conversationFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out" />
+        <action
+            android:id="@+id/action_homeFragment_to_textTranslateFragment"
+            app:destination="@id/textTranslateFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out" />
+        <action
+            android:id="@+id/action_homeFragment_to_textOnImagesFragment"
+            app:destination="@id/textOnImagesFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out" />
+
+        <action
+            android:id="@+id/action_homeFragment_to_dictionaryFragment"
+            app:destination="@id/dictionaryFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out" />
+
+        <action
+            android:id="@+id/action_homeFragment_to_themesFragment"
+            app:destination="@id/themesFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/conversationFragment"
+        android:name="com.amherickeyboard.voicetyping.translator.Fragments.ConversationFragment"
+        android:label="Voice Translator"
+        tools:layout="@layout/fragment_conversation" />
+
+    <fragment
+        android:id="@+id/textTranslateFragment"
+        android:name="com.amherickeyboard.voicetyping.translator.Fragments.TextTranslateFragment"
+        android:label="Text Translator"
+        tools:layout="@layout/fragment_text_translate" />
+
+    <fragment
+        android:id="@+id/textOnImagesFragment"
+        android:name="com.amherickeyboard.voicetyping.translator.Fragments.TextOnImagesFragment"
+        android:label="Text on Images"
+        tools:layout="@layout/fragment_text_on_images" />
+
+    <fragment
+        android:id="@+id/dictionaryFragment"
+        android:name="com.amherickeyboard.voicetyping.translator.dictionary.DictionaryFragment"
+        android:label="Voice Dictionary"
+        tools:layout="@layout/fragment_dictionary" />
+
+    <fragment
+        android:id="@+id/themesFragment"
+        android:name="com.amherickeyboard.voicetyping.translator.Fragments.ThemesFragment"
+        android:label="Keyboard Themes"
+        tools:layout="@layout/fragment_themes" />
+</navigation>
