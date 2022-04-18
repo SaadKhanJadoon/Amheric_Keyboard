@@ -37,11 +37,6 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            resValue "string", "admob_banner_id", "ca-app-pub-4158948912743392/8186838631"
-            resValue "string", "admob_interistitial", "ca-app-pub-4158948912743392/4247593624"
-            resValue "string", "admob_native_ad_id", "ca-app-pub-4158948912743392/5961469583"
-            resValue "string", "app_open", "ca-app-pub-4158948912743392/6932147113"
-            resValue "string", "app_id", "ca-app-pub-4158948912743392~1813001978"
         }
     }
 
